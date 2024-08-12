@@ -1,1 +1,2 @@
-console.log ("Harekrushna")
+console.log(5+5)
+console.log (typeof"harekrushna")
