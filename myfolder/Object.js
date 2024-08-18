@@ -33,13 +33,25 @@
 
 
 
-//OBJECT SINGLETON
-// const user = new Object()
-const user ={}
-user.id="123hare"
-user.name="kriss"
-user.islogin=false
-console.log (user)
+//OBJECT SINGLETON    // const user = new Object()
+// const user ={}
+// user.id="123hare"
+// user.name="kriss"
+// user.islogin=false
+// console.log (user)
+// const valarr = Object.values(user)
+// const keyarr = Object.keys(user)
+// const bothkeyval = Object.entries(user)
+// console.log (valarr)
+// console.log (keyarr)
+// console.log (bothkeyval)
+// console.log (valarr.length)
+// for (let i=0;i<valarr.length;i++){
+//     console.log (valarr[i])
+// }
+// console.log (user.hasOwnProperty("name"))
+
+
 
 // const userdet = {
 //     email : "some@gmail.com",
@@ -60,3 +72,12 @@ console.log (user)
 // // const obj3 = Object.assign({},obj1,obj2,obj4)
 // const obj3 = {...obj1, ...obj2, ...obj4}
 // console.log (obj3)
+
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseEnroller : "Harekrushna"
+}
+const {price} = course                                 //Destructure
+console.log (price)
